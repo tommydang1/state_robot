@@ -1,0 +1,14 @@
+
+syntax = "proto2";
+
+package small_world;
+
+message SM_Event 
+{
+
+	required string event_type = 1;
+
+	required string event_time = 2;
+
+}
+
